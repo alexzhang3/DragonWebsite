@@ -13,7 +13,7 @@ export const Container = styled.div`
     background: linear-gradient(
         108deg,
         rgba(173, 216, 230, 1) 0%,
-        rgba(0, 92, 230, 1) 100%
+        rgba(255, 102, 102, 1) 100%
     );
 `;
 
@@ -55,7 +55,7 @@ export const FormContent = styled.div`
 export const Form = styled.form`
     background: #fff;
     max-width: 1200px;
-    height: 500px;
+    height: 600px;
     width: 100%;
     z-index: 1;
     display: grid;
@@ -91,7 +91,7 @@ export const Text = styled.span`
     font-size: 1.35rem;
     text-indent: 50px;
     @media screen and (max-width: 786px) {
-        font-size: 13px;
+        font-size: 16px;
     }
 `;
 
@@ -144,4 +144,8 @@ export const LinkA = styled.a`
     margin-top: 12px;
     color: #ff6666;
     font-size: 1.35rem;
+
+    @media screen and (max-width: 786px) {
+        font-size: 1rem;
+    }
 `;

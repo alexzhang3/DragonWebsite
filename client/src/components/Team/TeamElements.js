@@ -13,7 +13,7 @@ export const Container = styled.div`
     background: linear-gradient(
         108deg,
         rgba(173, 216, 230, 1) 0%,
-        rgba(0, 92, 230, 1) 100%
+        rgba(255, 102, 102, 1)  100%
     );
 `;
 

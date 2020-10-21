@@ -85,11 +85,10 @@ export const FormH1 = styled.h1`
 `;
 
 export const Text = styled.span`
-    text-align: center;
     margin-top: 12px;
     color: #60a8c4;
     font-size: 1.5rem;
-
+    text-indent: 50px;
     @media screen and (max-width: 786px) {
         font-size: 16px;
     }
