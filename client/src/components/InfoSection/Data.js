@@ -61,7 +61,7 @@ export const homeObjFour = {
     lightText: false,
     lightTextDesc: true,
     topLine: 'Dragon Swim',
-    headline: 'Safe Sport Verfied',
+    headline: 'Safe Sport Verified',
     description: 'We\'re a Safe Sport swim club, recognized by USA Swimming.',
     buttonLabel: 'What\'s Safe Sport?',
     imgStart: true,

@@ -67,7 +67,7 @@ export const Form = styled.form`
 
     @media screen and (max-width: 400px) {
         padding: 32px 32px;
-        
+        height: 600px;
     }
 
 `;
@@ -82,6 +82,9 @@ export const FormH1 = styled.h1`
     @media screen and (max-width: 786px) {
         font-size: 35px;
     }
+    @media screen and (max-width: 400px) {
+        margin-top: -20px;
+    }
 `;
 
 export const Text = styled.span`
@@ -91,6 +94,9 @@ export const Text = styled.span`
     text-indent: 50px;
     @media screen and (max-width: 786px) {
         font-size: 16px;
+    }
+    @media screen and (max-width: 400px) {
+        overflow-y: hidden;
     }
 `;
 

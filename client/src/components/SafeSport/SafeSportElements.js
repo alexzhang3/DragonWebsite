@@ -109,6 +109,9 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
     border-radius: 40px;
+    @media screen and (max-width: 400px) {
+        max-width: 300px;
+    }
 `;
 
 export const NavBtn = styled.nav`

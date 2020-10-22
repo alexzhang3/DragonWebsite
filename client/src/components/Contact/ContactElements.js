@@ -65,8 +65,9 @@ export const Form = styled.form`
     margin-top: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.9);
 
-    @media screen and (max-width: 400) {
+    @media screen and (max-width: 400px) {
         padding: 32px 32px;
+        height: 600px;
     }
 
 `;
@@ -76,6 +77,9 @@ export const FormH1 = styled.h1`
     font-size: 3rem;
     font-weight: 400;
     text-align: center;
+    @media screen and (max-width: 400px) {
+        font-size: 2rem;
+    }
 `;
 
 export const Text = styled.span`
@@ -83,6 +87,9 @@ export const Text = styled.span`
     margin-top: 12px;
     color: #ff6666;
     font-size: 2rem;
+    @media screen and (max-width: 400px) {
+        font-size: 2rem;
+    }
 `;
 
 export const Email = styled.a`
@@ -90,4 +97,7 @@ export const Email = styled.a`
     margin-top: 12px;
     color: #76ceeb;
     font-size: 2rem;
+    @media screen and (max-width: 400px) {
+        font-size: 1.3rem;
+    }
 `

@@ -26,7 +26,7 @@ export const ServicesWrapper = styled.div`
     align-items: center;
     grid-gap: 16px;
     padding: 0 50px;
-
+    overflow-y: hidden;
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
     }
@@ -48,12 +48,13 @@ export const ServicesCard = styled.div`
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
-
+    
     &:hover {
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
+    
 `;
 
 export const ServicesIcon = styled.img`
@@ -73,7 +74,7 @@ export const ServicesH1 = styled.h1`
 `;
 
 export const ServicesH2 = styled.h2`
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 `;
 

@@ -21,6 +21,10 @@ export const Button = styled(LinkS)`
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#fff' :'#fff')};
     }
+
+    @media screen and (max-width: 480px) {
+        font-size: 12px;
+    }
 `
 
 export const ButtonLink = styled(LinkR)`
@@ -43,5 +47,9 @@ export const ButtonLink = styled(LinkR)`
         color: #000;
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#fff' :'#fff')};
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 12px;
     }
 `

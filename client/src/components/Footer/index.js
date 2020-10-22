@@ -43,11 +43,11 @@ const Footer = () => {
                         <SocialIcons>
                             <SocialIconLink href="//www.facebook.com" target="_blank" 
                             aria-label="Facebook"><FaFacebook/></SocialIconLink>
-                            <SocialIconLink href="//www.instagram.com" target="_blank" 
+                            <SocialIconLink href="//www.instagram.com/slackereven" target="_blank" 
                             aria-label="Instagram"><FaInstagram/></SocialIconLink>
                             <SocialIconLink href="//www.twitter.com" target="_blank" 
                             aria-label="Twitter"><FaTwitter/></SocialIconLink>
-                            <SocialIconLink href="//www.youtube.com" target="_blank" 
+                            <SocialIconLink href="//www.youtube.com/channel/UCZBClez5kBuGp4k09L1v-dw" target="_blank" 
                             aria-label="Youtube"><FaYoutube/></SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>

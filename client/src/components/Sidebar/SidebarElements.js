@@ -3,6 +3,8 @@ import {Link as LinkS} from 'react-scroll';
 import {Link as LinkR} from 'react-router-dom';
 import {FaTimes} from 'react-icons/fa';
 
+
+
 export const SidebarContainer = styled.aside`
     position: fixed;
     z-index: 999;
@@ -16,6 +18,10 @@ export const SidebarContainer = styled.aside`
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '85%' : '0')};
     top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    @media screen and (max-width: 480px) {
+        max-width: 380px;
+        overflow-x: hidden;
+    }
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -44,6 +50,7 @@ export const SidebarMenu = styled.ul`
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(6, 60px);
+        overflow-x: hidden;
     }
 `;
 

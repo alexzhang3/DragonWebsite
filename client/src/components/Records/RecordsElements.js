@@ -81,6 +81,7 @@ export const FormH1 = styled.h1`
 
     @media screen and (max-width: 786px) {
         font-size: 35px;
+        margin-top: -20px;
     }
 `;
 
@@ -109,6 +110,9 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
     border-radius: 40px;
+    @media screen and (max-width: 400px) {
+        max-width: 300px;
+    }
 `;
 
 export const NavBtn = styled.nav`
@@ -143,4 +147,7 @@ export const LinkA = styled.a`
     margin-top: 12px;
     color: #ff6666;
     font-size: 1.35rem;
+    @media screen and (max-width: 400px) {
+        font-size: 1rem;
+    }
 `;

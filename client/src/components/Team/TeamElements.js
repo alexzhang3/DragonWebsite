@@ -38,6 +38,7 @@ export const Icon = styled(Link)`
     @media screen and (max-width: 480px) {
         margin-left: 16px;
         margin-top: 8px;
+        font-size: 30px;
     }
 `;
 
@@ -67,7 +68,7 @@ export const Form = styled.form`
 
     @media screen and (max-width: 400px) {
         padding: 32px 32px;
-        
+        height: 600px;
     }
 
 `;
@@ -80,7 +81,8 @@ export const FormH1 = styled.h1`
     margin-top: -40px;
 
     @media screen and (max-width: 786px) {
-        font-size: 35px;
+        margin-top: -10px;
+        font-size: 25px;
     }
 `;
 
@@ -91,6 +93,7 @@ export const Text = styled.span`
     font-size: 1.35rem;
     text-indent: 50px;
     @media screen and (max-width: 786px) {
+
         font-size: 13px;
     }
 `;
